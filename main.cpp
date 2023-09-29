@@ -198,7 +198,7 @@ int main(int argc, const char* argv[])
     auto elapsed_ms = std::chrono::duration_cast<std::chrono::microseconds>(end - start);
 
     // Print spent time in microseconds
-    std::cout << "Elapsed time is " << elapsed_ms.count() << " us\n";
+    std::cout << "Elapsed time is " << elapsed_ms.count() << " us" << std::endl;
 
     return EXIT_SUCCESS;
 }
